@@ -20,10 +20,10 @@ function media(){
 
     if (media >= 7)
      if(media==10)
-      alert("Parabéns, você foi aprovado com média máxima: " +media)
+        swal("Parabéns, você foi aprovado com média máxima: " +media)
      else
-      alert("Parabéns, você foi aprovado com média: " +media)
+        swal("Parabéns, você foi aprovado com média: " +media)
     else
-     alert("Reprovado! Você não antingiu o média necessária.")
+        swal("Reprovado! Você não antingiu o média necessária.")
 
    }
